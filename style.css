@@ -825,4 +825,18 @@ section .container {
   /* color: white; */
   justify-content: space-evenly;
 }
+
+  .header .box {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  transform: translate(0%, -50%);
+  max-width: 50%;
+  /* height: fit-content; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: hidden;
+  height: 320px;
+}
 }
