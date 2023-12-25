@@ -454,7 +454,7 @@ section .heading {
   /* background-image: url(https://t4.ftcdn.net/jpg/02/99/28/21/360_F_299282112_HwPpQIaXElljXBbGLjjfrJ08i0f0TwHb.jpg); */
   width: 80%;
   height: 100%;
-  z-index: 0;
+  z-index: -1;
 }
 .contact .form-box {
   display: flex;
